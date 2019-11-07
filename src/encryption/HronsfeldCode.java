@@ -15,7 +15,7 @@ public class HronsfeldCode {
         char[] keyArr = key.toCharArray();
 
         for(int i = 0; i < keyLen; i++){
-            if(keyArr[i] < 0 || keyArr[i] > 57){
+            if(keyArr[i] < 48 || keyArr[i] > 57){
                 return "\nWarning! Key must be in range 0 - 9 !\nText can not be coded or decoded!\n";
             }
         }
